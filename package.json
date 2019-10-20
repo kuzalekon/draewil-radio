@@ -1,0 +1,26 @@
+{
+  "name": "playlist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "reindex": "node ./scripts/createRadioLibraryIndex.js",
+    "start": "node ./src/index.js",
+    "style": "standart",
+    "test": "mocha ./src/**/*.spec.js"
+  },
+  "dependencies": {
+    "awilix": "^4.2.2",
+    "config": "^3.2.3",
+    "koa": "^2.10.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "xml2json": "^0.11.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "faker": "^4.1.0",
+    "mocha": "^6.2.2",
+    "standart": "^6.1.0"
+  }
+}
